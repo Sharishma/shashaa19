@@ -1,8 +1,7 @@
-// Java program to check for even or odd 
-// using Bitwise XOR operator
 
 
-class GFG
+
+class Even
 {
 static boolean isEven(int n )
 {
