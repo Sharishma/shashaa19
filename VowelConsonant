@@ -1,0 +1,26 @@
+import java.io.*;
+ 
+public class Sha
+{
+ 
+    
+static void vowelOrConsonant(char x)
+{
+if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u')
+System.out.println("Vowel");
+ else
+System.out.println("Consonant");
+}
+ 
+   
+ static public void main(String[] args)
+ {
+ vowelOrConsonant('c');
+ vowelOrConsonant('e');
+ }
+}
+ 
+ 
+ Output:
+ Consonant
+ Vowel
