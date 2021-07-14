@@ -1,0 +1,44 @@
+import java.util.*;
+class PrimeNo
+{
+public static void main(String args[])
+{
+ Scanner scn = new Scanner(System.in);
+ System.out.println(" Enter the range");
+ int n=scn.nextInt();
+ prime p=new prime();
+ p.primeno(n);
+ }
+}
+class prime
+{
+ public static primeno(int n)
+ {
+  for(int i=2;i<=n;i++)
+  {
+   int count=0;
+   for(int j=2;j<=1/2;j++)
+   {
+    if(1%j==0)
+   {
+    count+=1;
+    break;
+    }
+   }
+   if(count==0)
+      System.out.println(1);
+  }
+ }
+} 
+
+Output:
+Enter the range
+20
+2
+3
+5
+7
+11
+13
+17
+19
