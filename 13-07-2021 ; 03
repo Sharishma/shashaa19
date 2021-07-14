@@ -1,0 +1,20 @@
+import java.util.*;
+class String
+{
+public static void main(String args[])
+{
+Scanner scn =new Scanner (System.in);
+System.out.println("Enter a String ");
+String S=scn.nextInt();
+int c=count(String S)
+{
+String = str[]=S.split(" ");
+int n=str.length;
+return n;
+}
+}
+
+OUtput:
+ Enter a String
+ This is coding class
+ 4
