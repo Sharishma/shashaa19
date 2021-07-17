@@ -28,4 +28,9 @@ enter n value
 enter arrray elements
 20 30 40 50 60
 [30 40 50 60]
+
 enter n value
+5
+enter array elements
+1 2 3 4 
+element not found 
