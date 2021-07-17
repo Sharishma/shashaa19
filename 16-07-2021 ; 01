@@ -1,0 +1,31 @@
+import java.util.*;
+class Main
+{
+public static void main(String []args)
+{
+Scanner sc=new Scanner(System.in);
+ArrayList<Integer> ar=new ArrayList<Integer>();
+System.out.println("enter  n value");
+int n =sc.nextInt();
+System.out.println("enter array elements");
+for(int i =0;i<n;i++)
+ar.add(sc.nextInt());
+if(ar.contains(20));
+}
+ar.remove(ar.indexOf(20));
+}
+else
+{
+System.out.println("element not found");
+}
+System.out.println(ar);
+}
+}
+
+Output:
+enter n value
+5
+enter arrray elements
+20 30 40 50 60
+[30 40 50 60]
+enter n value
