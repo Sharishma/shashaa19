@@ -1,0 +1,25 @@
+import java.util.*;
+class HashSet
+{
+HashSet<Integer>myHashSet;
+public myHashSet()
+{
+myHashSet=new HashSet<Integer>();
+}
+public void add(int key);
+my HashSet.add(key);
+}
+public void remove(int key)
+{
+myHashSet.remove(key);
+}
+public boolean contains(int key)
+{
+return myHashSet.contains(key);
+}
+}
+
+
+
+
+
