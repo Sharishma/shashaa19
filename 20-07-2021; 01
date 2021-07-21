@@ -1,0 +1,23 @@
+import java.util.*;
+class Stack
+{
+public static void main(String args[])
+{
+Scanner scn=new Scanner(System.in);
+System.out.println("enter array size");
+int n=scn.nextInt();
+int arr[]=new int[n];
+for(int i=0;i<n;i++;)
+arr[i]=scn.nextInt();
+Stack<Integer> S=new Stack<Integer>();
+for(int i=0;i<n;i++)
+S.push(arr[i]);
+System.out.println("Elements of stack are"+S);
+}
+}
+
+Output:
+enter array size
+5
+1 2 3 4 5 
+Elements of stack are [1,2,3,4,5]
