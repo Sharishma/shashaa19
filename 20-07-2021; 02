@@ -18,6 +18,6 @@ Output:
 The stack elements are 
 [ 10,20,30,40]
 the deleted element is
-30
+40
 the remaining elements are
-[10,20,40]
+[10,20,30]
