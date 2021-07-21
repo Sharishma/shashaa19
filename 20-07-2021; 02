@@ -1,4 +1,4 @@
-import java.uti.stack;
+import java.util.stack;
 class StackDemo
 {
 public static void main(String args[])
