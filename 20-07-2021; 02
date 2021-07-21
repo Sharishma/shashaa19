@@ -1,0 +1,23 @@
+import java.uti.stack;
+class Demo
+{
+public static void main(String args[])
+{
+Stack st=new Stack();
+stack.push("10");
+stack.push("20");
+stack.push("30");
+stack.push("40");
+System.out.println("The stack elements are " +stack);
+System.out.println("the deleted element is" +stack.pop());
+System.out.prinln("the remaining elements are" +stack);
+}
+}
+
+Output:
+The stack elements are 
+[ 10,20,30,40]
+the deleted element is
+30
+the remaining elements are
+[10,20,40]
