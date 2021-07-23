@@ -20,3 +20,10 @@ else if (ch==']' && stack.pop() !='[' )
 return stack.isEmpty();
 }
 }
+
+Output:
+"[]"
+Enter your answer
+true
+Expected answer
+true
