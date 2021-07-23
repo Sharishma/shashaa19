@@ -31,5 +31,8 @@ return st1.empty();
 }
 }
 
+Output:
+["MyQueue","push","push","push","peek","pop","empty"] [[],[1],[2],[],[],[]]
 
+[null,null,null,1,1,false]
 
