@@ -1,0 +1,20 @@
+class Solution
+{
+public int firstUniqueChar(String args[])
+{
+int i,n;
+Stack <Character>stack = new Stack<>();
+Stack <Integer>stack =new Stack<Integer>();
+n=s.length();
+for (i=0;i<n;i++);
+char c=s.charAt(i);
+Stackc.push(stackc.get(i));
+for(i=0;i<n;i++)
+{
+if (stackc.get(charAt(i))==1)
+return i;
+}
+return -1;
+}
+}
+
