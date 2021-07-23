@@ -1,10 +1,10 @@
+import java.util.*;
 class MyQueue
 {
 public MyQueue()
 {
 Stack<Integer>st1=new Stack<Integer>();
 Stack<Integer>st2=new Stack<Integer>();
-}
 public void push(int x)
 {
 while(!st1.empty())
