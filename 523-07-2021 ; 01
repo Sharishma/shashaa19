@@ -1,5 +1,5 @@
 import java.util.*;
-class ArrayListIterator
+public class ArrayListIterator
 {
 public static void main (String args[])
 {
