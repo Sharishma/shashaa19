@@ -3,12 +3,12 @@ public class IteratorHashSet
 {
 public static void main(String args[])
 {
-HashSet<String> hset =new HashSet<String>();
+HashSet hset =new HashSet();
 hset.add("Apple");
 hset.add("Banana");
 hset.add("Cherry");
 hset.add("Mango");
-Iterator<String>itr = hset.iterator();
+Iterator itr = hset.iterator();
 while(itr.hasNext())
 {
 System.out.println(itr.next());
