@@ -1,0 +1,23 @@
+import java.util.*;
+class IteratorHashSet
+{
+public static void main(String args[])
+{
+HashSet<Integers> hset =new HashSet<Stirng>();
+hset.add("100");
+hset.add("200");
+hset.add("300");
+hset.add("400");
+Iterator<Integer>itr = hset.iterator();
+while(itr.hasNext())
+{
+System.out.println(itr.next());
+}
+}
+}
+
+ Output:
+100
+200
+300
+400
