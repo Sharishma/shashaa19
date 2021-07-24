@@ -1,5 +1,5 @@
 import java.util.*;
-class IteratorHashSet
+public class IteratorHashSet
 {
 public static void main(String args[])
 {
