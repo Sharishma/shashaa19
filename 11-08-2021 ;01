@@ -1,0 +1,47 @@
+import java.util.scanner;
+class Program
+{
+public staic void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter array size");
+int a[]=new int[n];
+for(int i=0;i<n;i++)
+a[i]=scn.nextInt();
+System.out.println("before sorting");
+show(a);
+bubble(a,n);
+System.out.println("\nafter  sorting");
+show(a);
+}
+  static void show(int a[])
+ {
+ for (int i:a)
+ System.out.println(i+"");
+ }
+ static void bubble(int a[],int n)
+ {
+ for(int i=0;i<n;i++0
+ {
+ for (int j=0;j<n-1;j++)
+ {
+ if(a[j]<a[j+1])
+ {
+int t=a[j];
+a[j]=a[j+1];
+a[j=1]=t;
+}
+}
+}
+}
+}
+
+OUtput:
+Enter array size
+8
+Enter array elements
+45 8 14 1 52 16 2 10
+before sorting
+45 8 14 1 52 16 2 10
+after sorting 
+52 45 16 14 10 8 2 1
