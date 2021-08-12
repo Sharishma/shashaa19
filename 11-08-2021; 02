@@ -1,0 +1,46 @@
+import java.util.*;
+class program
+{
+public static void main(String args[])
+{
+Scanner scn.new Scanner(System.in);
+int n=scn.nextInt();
+int a[]=new int[n];
+for(int i=0;i<n;i++)
+a[i]=scn.nextInt();
+System.out.println("before sorting");
+show(a);
+selection(a,n);
+System.out.println("\nAfter sorting");
+show(a);
+}
+static void show(int a[])
+{
+for(int i=0;i<a.length;i++)
+System.out.println(a[i]+" ");
+}
+static void selection(int a[],int n)
+{
+int min;
+for(int j=i+1;j<n;j++)
+{
+if(a[j]>a[min])
+min=j:
+}
+if (min!=1)
+{
+int t=a[i];
+a[i]=a[min];
+a[min]=t;
+}
+}
+}
+}
+
+OUtput:
+6
+1 22 4 34 21 10 
+before sorting
+1 22 4 34 21 10
+After sorting
+34 22 21 10 4 1
